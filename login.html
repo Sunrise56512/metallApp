@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="login">
+      <div class="left">
+        <img src="img/background.png" />
+      </div>
+      <div class="right">
+        <h1>Вход</h1>
+        <p>Введите свой логин и пароль ниже</p>
+        <div class="form">
+          <div class="login-input">
+            <p>ЛОГИН</p>
+            <input type="text" placeholder="Введите логин" id="log-in" />
+          </div>
+          <div class="password-input">
+            <p>ПАРОЛЬ</p>
+            <input
+              type="password"
+              placeholder="Введите пароль"
+              autocomplete="new-password"
+              id="password"
+            />
+            <img src="img/eye.svg" class="img-eye" />
+            <img src="img/eye-off.svg" class="img-eye-none" />
+          </div>
+          <div class="submit">
+            <button type="submit" class="btn" disabled>Вход</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>

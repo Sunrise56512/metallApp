@@ -1,0 +1,116 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login {
+  margin-top: 5%;
+  display: flex;
+  justify-self: center;
+  gap: 32px;
+  width: 780px;
+  height: 580px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.login .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login .right p {
+  color: #9fa2b4;
+}
+
+.login .right h1 {
+  margin: 0px;
+}
+
+.login .right .login-input input {
+  width: 268px;
+  height: 42px;
+  padding: 0px 24px;
+  border: 2px #101010 solid;
+  border-radius: 8px;
+}
+
+.login .right .password-input input {
+  width: 268px;
+  height: 42px;
+  padding: 0px 24px;
+  border: 2px #101010 solid;
+  border-radius: 8px;
+}
+
+.login .right .login-input p {
+  margin: 0px;
+  font-size: 12px;
+  color: #101010;
+  font-weight: 600;
+}
+
+.login .right .login-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.login .right .password-input p {
+  margin: 0px;
+  font-size: 12px;
+  color: #101010;
+  font-weight: 600;
+}
+
+.login .right .password-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.login .right .submit .btn {
+  width: 324px;
+  height: 42px;
+  background-color: #101010;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login .right .form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.img-eye {
+  width: 24px;
+  height: 24px;
+  margin-top: 30px;
+  margin-left: 280px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.img-eye-none {
+  width: 24px;
+  height: 24px;
+  margin-top: 30px;
+  margin-left: 280px;
+  position: absolute;
+  cursor: pointer;
+  display: none;
+}
+
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}

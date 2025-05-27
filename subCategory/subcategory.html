@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="subcategory.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav">
+      <img class="back" src="/img/Aroow-back.svg" />
+      <p>Выберите тип метала</p>
+    </div>
+    <div class="position-1">
+      <div class="card-1">
+        <p>Черный лом</p>
+      </div>
+    </div>
+    <div class="input">
+      <label for="">Введите</label>
+      <textarea
+        id="autotext"
+        rows="1"
+        placeholder="Введите сообщение..."
+      ></textarea>
+    </div>
+    <div class="select-1">
+      <label>Примерный вес лома</label>
+      <select name="Примерный вес лома" id="select-1">
+        <option value="50KG">До 50 кг</option>
+        <option value="100KG">Больше 100 кг</option>
+        <option value="200KG">Больше 200 кг</option>
+        <option value="500KG">Больше 500 кг</option>
+        <option value="1000KG">Больше 1000 кг</option>
+      </select>
+    </div>
+    <div class="select-2">
+      <label for="">Как часто образуется лом</label>
+      <select name="Как часто образуется лом" id="select-2">
+        <option value="One-time">Единоразово</option>
+        <option value="Every-week">Каждую неделю</option>
+        <option value="Every-year">Каждый год</option>
+        <option value="Often">Часто</option>
+      </select>
+    </div>
+    <div class="select-3">
+      <label for="">Требуется ли демонтаж или резка негабаритного лома?</label>
+      <select
+        name="Требуется ли демонтаж или резка негабаритного лома?"
+        id="select-3"
+      >
+        <option value="No">Нет</option>
+        <option value="Yes">Да</option>
+      </select>
+    </div>
+    <div class="select-4">
+      <label for="">Требуется ли спуск или вынос с помещения?</label>
+      <select name="Требуется ли спуск или вынос с помещения?" id="select-4">
+        <option value="No">Нет</option>
+        <option value="Yes">Да</option>
+      </select>
+    </div>
+    <div class="image">
+      <label>Загрузить фото или видео</label>
+      <div class="image-block" id="imageBlock">
+        <img src="/img/image.svg" id="placeholderImage" />
+        <input
+          type="file"
+          style="display: none"
+          class="fileInput"
+          id="fileInput"
+        />
+      </div>
+    </div>
+    <div class="image-add">
+      <div class="icon-1" id="previewContainer" style="display: none">
+        <img src="/img/икс.svg" class="exit" id="removeBtn" />
+        <img src="" id="previewImage" />
+      </div>
+      <div class="add" id="add-img" style="display: none">
+        <img src="/img/добавить.svg" />
+      </div>
+    </div>
+    <div class="button">
+      <button class="btn-none">Продолжить</button>
+    </div>
+    <script src="subcategory.js"></script>
+  </body>
+</html>

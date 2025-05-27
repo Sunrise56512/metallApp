@@ -1,0 +1,233 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fafafa;
+}
+
+.nav {
+  display: flex;
+  justify-content: start;
+  gap: 65px;
+  align-items: center;
+  padding: 32px 24px 10px 24px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.nav p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.position-1 {
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 250px;
+  height: 60px;
+  background-color: #000000;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px #00000087;
+  color: #fff;
+}
+
+.btn {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  width: 400px;
+  height: 60px;
+  margin: 0px 32px;
+  border-radius: 64px;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 64px;
+  padding-bottom: 32px;
+}
+
+.btn-none {
+  border: none;
+  background-color: #0000007b;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  width: 400px;
+  height: 60px;
+  margin: 0px 32px;
+  border-radius: 64px;
+  cursor: pointer;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 0px 24px;
+  gap: 10px;
+}
+
+.input textarea {
+  height: auto;
+  font-size: 16px;
+  border: 1px #bdc1ca solid;
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 24px 24px 0px 24px;
+  font-family: "Montserrat", sans-serif;
+  resize: none;
+  overflow: hidden;
+}
+
+.select-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 0px 24px;
+  gap: 10px;
+}
+
+#select-1 {
+  height: auto;
+  padding: 24px 24px 24px 24px;
+  font-size: 16px;
+  border: 1px #bdc1ca solid;
+  border-radius: 4px;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  resize: none;
+  overflow: hidden;
+}
+
+.select-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 0px 24px;
+  gap: 10px;
+}
+
+#select-2 {
+  height: auto;
+  padding: 24px 24px 24px 24px;
+  font-size: 16px;
+  border: 1px #bdc1ca solid;
+  border-radius: 4px;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  resize: none;
+  overflow: hidden;
+}
+
+.select-3 {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 0px 24px;
+  gap: 10px;
+}
+
+#select-3 {
+  height: auto;
+  padding: 24px 24px 24px 24px;
+  font-size: 16px;
+  border: 1px #bdc1ca solid;
+  border-radius: 4px;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  resize: none;
+  overflow: hidden;
+}
+
+.select-4 {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 0px 24px;
+  gap: 10px;
+}
+
+#select-4 {
+  height: auto;
+  padding: 24px 24px 24px 24px;
+  font-size: 16px;
+  border: 1px #bdc1ca solid;
+  border-radius: 4px;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  resize: none;
+  overflow: hidden;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 24px 0px 24px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.image-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border-radius: 24px;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px #00000041;
+  padding: 0px 24px;
+}
+
+.image-add {
+  padding-top: 32px;
+  display: flex;
+  gap: 16px;
+  align-items: end;
+}
+
+.icon-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding-left: 24px;
+}
+
+.image-add .add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 145px;
+  background-color: #e6e6e6;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.image-add .add img {
+  width: 24px;
+  height: 24px;
+}
+
+#previewImage {
+  max-width: 50vw;
+  max-height: 20vh;
+  object-fit: cover;
+  border-radius: 16px; /* если нужны скругления */
+}
+
+#previewContainer #removeBtn {
+  width: 24px;
+  height: 24px;
+}

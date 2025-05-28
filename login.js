@@ -54,5 +54,7 @@ toggleOff.addEventListener("click", function () {
 });
 
 if (localStorage.getItem("user")) {
-  window.location.replace("index.html");
+  window.location.replace(
+    "http://127.0.0.1:5500/homePage/home%20page%20mobile.html#targetDiv"
+  );
 }

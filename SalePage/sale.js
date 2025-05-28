@@ -44,7 +44,7 @@ cardOne.addEventListener("click", function () {
 
 btn.addEventListener("click", function () {
   if (cardOne.classList.contains("card-outlined")) {
-    window.location.href = "/categoryPage/categoty.html";
+    window.location.href = "/metallApp/categoryPage/categoty.html";
   } else if (cardTwo.classList.contains("card-outlined")) {
     window.location.href = "";
   } else {

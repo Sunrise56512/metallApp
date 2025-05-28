@@ -192,6 +192,6 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("input", checkLocalStorage);
 
   button.addEventListener("click", () => {
-    window.location.href = "/homePage/Home page mobile.html";
+    window.location.href = "/metallApp/homePage/home-page-mobile.html";
   });
 });

@@ -54,5 +54,5 @@ setInterval(() => {
 }, 5000);
 
 buttonClick.addEventListener("click", function () {
-  window.location.href = "/SalePage/sale.html";
+  window.location.href = "/metallApp/SalePage/sale.html";
 });

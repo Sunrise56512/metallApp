@@ -105,7 +105,7 @@ btn.addEventListener("click", function () {
 
 function windowHref(links) {
   if (cardOne.classList.contains("card-outlined")) {
-    window.location.href = "/subCategory/subcategory.html";
+    window.location.href = "/metallApp/subCategory/subcategory.html";
   } else if (cardTwo.classList.contains("card-outlined")) {
     window.location.href = "";
   } else if (cardThree.classList.contains("card-outlined")) {
@@ -116,5 +116,5 @@ function windowHref(links) {
 btn.addEventListener("click", () => windowHref());
 
 arrowBack.addEventListener("click", () => {
-  window.location.href = "/SalePage/sale.html";
+  window.location.href = "/metallApp/SalePage/sale.html";
 });

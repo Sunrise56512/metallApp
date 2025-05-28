@@ -44,7 +44,7 @@ cardOne.addEventListener("click", function () {
 
 btn.addEventListener("click", function () {
   if (cardOne.classList.contains("card-outlined")) {
-    window.location.href = "http://127.0.0.1:5500/categoryPage/categoty.html";
+    window.location.href = "/categoryPage/categoty.html";
   } else if (cardTwo.classList.contains("card-outlined")) {
     window.location.href = "";
   } else {

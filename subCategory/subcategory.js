@@ -192,7 +192,6 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("input", checkLocalStorage);
 
   button.addEventListener("click", () => {
-    window.location.href =
-      "http://127.0.0.1:5500/homePage/home%20page%20mobile.html#targetDiv";
+    window.location.href = "/homePage/Home page mobile.html";
   });
 });

@@ -105,7 +105,7 @@ btn.addEventListener("click", function () {
 
 function windowHref(links) {
   if (cardOne.classList.contains("card-outlined")) {
-    window.location.href = "http://127.0.0.1:5500/subcategory/subcategory.html";
+    window.location.href = "/subCategory/subcategory.html";
   } else if (cardTwo.classList.contains("card-outlined")) {
     window.location.href = "";
   } else if (cardThree.classList.contains("card-outlined")) {
@@ -116,5 +116,5 @@ function windowHref(links) {
 btn.addEventListener("click", () => windowHref());
 
 arrowBack.addEventListener("click", () => {
-  window.location.href = "http://127.0.0.1:5500/Salepage/sale.html";
+  window.location.href = "/SalePage/sale.html";
 });

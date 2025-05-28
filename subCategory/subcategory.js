@@ -50,7 +50,7 @@ fileInput.addEventListener("change", () => {
         newPreview.classList.add("icon-1");
 
         newPreview.innerHTML = `
-          <img src="/img/икс.svg" class="exit" />
+          <img src="/metallApp/img/икс.svg" class="exit" />
           <img src="${imageData}" id="previewImage"/>
         `;
 

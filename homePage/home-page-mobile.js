@@ -7,10 +7,10 @@ const buttonClick = document.querySelector(".btn");
 
 setInterval(() => {
   const currySrc = bannerSwap.getAttribute("src");
-  if (currySrc === "/img/banner_background.svg") {
-    bannerSwap.setAttribute("src", "/img/banner_background_1.svg");
+  if (currySrc === "/metallApp/img/banner_background.svg") {
+    bannerSwap.setAttribute("src", "/metallApp/img/banner_background_1.svg");
   } else {
-    bannerSwap.setAttribute("src", "/img/banner_background.svg");
+    bannerSwap.setAttribute("src", "/metallApp/img/banner_background.svg");
   }
 }, 5000);
 

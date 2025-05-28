@@ -33,7 +33,8 @@ document.addEventListener("keydown", function (event) {
 });
 
 buttonSubmit.addEventListener("click", function () {
-  window.location.href = "index.html";
+  window.location.href =
+    "http://127.0.0.1:5500/homePage/home%20page%20mobile.html#targetDiv";
   localStorage.setItem("user", "admin");
 });
 
@@ -52,9 +53,3 @@ toggleOff.addEventListener("click", function () {
   toggleOff.classList.add("none");
   toggle.classList.add("block");
 });
-
-if (localStorage.getItem("user")) {
-  window.location.replace(
-    "http://127.0.0.1:5500/homePage/home%20page%20mobile.html#targetDiv"
-  );
-}

@@ -33,7 +33,7 @@ document.addEventListener("keydown", function (event) {
 });
 
 buttonSubmit.addEventListener("click", function () {
-  window.location.href = "./homePage/Home page mobile.html";
+  window.location.href = "/homePage/Home page mobile.html";
   localStorage.setItem("user", "admin");
 });
 

@@ -46,7 +46,7 @@ btn.addEventListener("click", function () {
   if (cardOne.classList.contains("card-outlined")) {
     window.location.href = "http://127.0.0.1:5500/categoryPage/categoty.html";
   } else if (cardTwo.classList.contains("card-outlined")) {
-    window.location.href = "http://127.0.0.1:5500/index.html";
+    window.location.href = "";
   } else {
     cardParagraph.classList.add("none-card-2");
     btnTwo.classList.add("button-padding");

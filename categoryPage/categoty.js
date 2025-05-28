@@ -105,11 +105,11 @@ btn.addEventListener("click", function () {
 
 function windowHref(links) {
   if (cardOne.classList.contains("card-outlined")) {
-    window.location.href = "http://127.0.0.1:5500/index.html";
+    window.location.href = "http://127.0.0.1:5500/subcategory/subcategory.html";
   } else if (cardTwo.classList.contains("card-outlined")) {
-    window.location.href = "http://127.0.0.1:5500/index.html";
+    window.location.href = "";
   } else if (cardThree.classList.contains("card-outlined")) {
-    window.location.href = "http://127.0.0.1:5500/index.html";
+    window.location.href = "";
   }
 }
 
